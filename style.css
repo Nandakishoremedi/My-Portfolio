@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'josefin sans' sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(pic1.jpg);
+    background-size:1200;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+}
+.logo {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+span {
+    color: #f9d400;
+}
+nav ul li {
+    list-style-type:none;
+    display: inline-block;
+    padding: 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9d400;
+    transition: .3s;
+}
+ .btn {
+    background-color:#f9d400;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold;
+    border-radius: 30px;
+    padding: 10px 25px; 
+    transition: .3s;
+ }
+
+.btn:hover{
+    background-color: rgb(185, 0, 148);
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+ h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+ }
+ h4 {
+    color:#fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;  
+ }
+
+ .about {
+    color: rgb(239, 234, 234);
+    width: 100%;
+    padding: 100px 0px;
+    background-color:rgb(17, 17, 17);
+
+ }
+ .about img{
+    height: auto;
+    width:430px;
+}
+
+.about-text{
+    width: 550px;
+}
+    
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+     color: white;
+     font-size: 75px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+    }
+
+    .about-text h5{
+
+        color: white;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .about-text p{
+        color: #fcfc;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+
+    p{
+        color: white;
+        letter-spacing: 1px;
+        font-size: large;
+        margin-bottom: auto;
+    }
+
+. skill-title img
+
+
+
+
+
+
+
